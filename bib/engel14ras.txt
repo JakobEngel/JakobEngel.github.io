@@ -1,0 +1,9 @@
+@article{engel14ras,
+  author = {J. Engel and J. Sturm and D. Cremers},
+  title = {Scale-Aware Navigation of a Low-Cost Quadrocopter with a Monocular Camera},
+  journal = {Robotics and Autonomous Systems (RAS)},
+  year = {2014},
+  volume = "62",
+  number = "11",
+  pages = "1646-–1656"
+}

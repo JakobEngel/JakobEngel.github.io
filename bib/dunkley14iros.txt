@@ -1,0 +1,6 @@
+@inProceedings{dunkley14iros,
+  author    = {O. Dunkley and J. Engel and J. Sturm and D. Cremers},
+  title     = {Visual-Inertial Navigation for a Camera-Equipped 25g Nano-Quadrotor},
+  booktitle = {IROS2014 Aerial Open Source Robotics Workshop},
+  year      = {2014}
+}

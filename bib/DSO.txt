@@ -1,0 +1,10 @@
+@article{engel2017DSO,
+author={J. Engel and V. Koltun and D. Cremers},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={{D}irect {S}parse {O}dometry},
+year={2017},
+volume={PP},
+number={99},
+pages={1-1},
+doi={10.1109/TPAMI.2017.2658577},
+ISSN={0162-8828}}

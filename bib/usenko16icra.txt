@@ -1,0 +1,7 @@
+@InProceedings{usenko16icra,
+	title = "Direct Visual-Inertial Odometry with Stereo Cameras",
+	author = "V. Usenko and J. Engel and J. Stueckler and D. Cremers",
+	booktitle = "International Conference on Robotics and Automation (ICRA)",
+	year = "2016",
+	month = "May"
+}

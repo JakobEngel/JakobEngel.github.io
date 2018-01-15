@@ -1,0 +1,6 @@
+@InProceedings{ engel12vicomor,
+	author = {J. Engel and J. Sturm and D. Cremers},
+	title = "Accurate Figure Flying with a Quadrocopter Using Onboard Visual and Inertial Sensing",
+	booktitle = "Proc. of the Workshop on Visual Control of Mobile Robots (ViCoMoR) at the IEEE/RJS International Conference on Intelligent Robot Systems (IROS)",
+	year = "2012"
+}

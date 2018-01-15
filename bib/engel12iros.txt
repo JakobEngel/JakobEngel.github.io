@@ -1,0 +1,6 @@
+@InProceedings{ engel12iros,
+	author = {J. Engel and J. Sturm and D. Cremers},
+	title = "Camera-Based Navigation of a Low-Cost Quadrocopter",
+	booktitle = "Proc. of the International Conference on Intelligent Robot Systems (IROS)",
+	year = "2012"
+}

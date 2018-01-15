@@ -1,0 +1,9 @@
+@misc{engel2017phd
+    author     =     {J. Engel},
+    title     =     {Large-Scale Direct SLAM and 3D Reconstruction in Real-Time},
+    howpublished = {PhD Thesis},
+    year = {2017},
+    note = {Technical University Munich},
+    booktitle = {Technical University Munich}
+}
+

@@ -1,0 +1,6 @@
+@inproceedings{engel14eccv,
+author={J. Engel and T. Sch\"ops and D. Cremers},
+title={{LSD-SLAM}: Large-Scale Direct Monocular {SLAM}},
+year= {2014},
+booktitle = {European Conference on Computer Vision (ECCV)}
+}

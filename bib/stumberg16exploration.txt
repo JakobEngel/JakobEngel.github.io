@@ -1,0 +1,12 @@
+@InProceedings{stumberg16exploration,
+  author    = {L. von Stumberg and
+               V. Usenko and
+               J. Engel and
+               J. Stueckler and
+               D. Cremers},
+  title     = {From Monocular {SLAM} to Autonomous Drone Exploration},
+  booktitle = {European Conference on Mobile Robots (ECMR)},
+  arXiv     = {arXiv:1609.07835},
+  year      = {2017},
+  month     = {September}
+}

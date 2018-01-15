@@ -1,0 +1,6 @@
+@inproceedings{caruso2015_omni_lsdslam,
+  author = {D. Caruso and J. Engel and D. Cremers},
+  title = {Large-Scale Direct SLAM for Omnidirectional Cameras},
+  booktitle = {International Conference on Intelligent Robots and Systems (IROS)},
+  year = 2015
+}

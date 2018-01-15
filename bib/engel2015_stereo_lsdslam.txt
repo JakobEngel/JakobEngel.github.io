@@ -1,0 +1,6 @@
+@inproceedings{engel2015_stereo_lsdslam,
+  author = {J. Engel and J. Stueckler and D. Cremers},
+  title = {Large-Scale Direct SLAM with Stereo Cameras},
+  booktitle = {International Conference on Intelligent Robots and Systems (IROS)},
+  year = 2015
+}

@@ -1,0 +1,9 @@
+@misc{engel2011msc,
+    author     =     {J. Engel},
+    title     =     {Autonomous Camera-Based Navigation of a Quadrocopter},
+    howpublished = {Msc. Thesis},
+    year = {2011},
+    note = {Technical University Munich},
+    booktitle = {Technical University Munich}
+}
+

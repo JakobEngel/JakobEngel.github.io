@@ -1,0 +1,6 @@
+@inproceedings{usenko15_3drecon_stereolsdslam,
+  author= {V. Usenko and J. Engel and J. Stueckler and D. Cremers},
+  title = {Reconstructing Street-Scenes in Real-Time From a Driving Car},
+  booktitle = {Proc. of the Int. Conference on 3D Vision (3DV)},
+  year = 2015
+}

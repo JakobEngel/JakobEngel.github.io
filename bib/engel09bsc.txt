@@ -1,0 +1,9 @@
+@misc{engel2009bsc
+    author     =     {J. Engel},
+    title     =     {Generating Swedish-style Crossword Puzzle Masks using Evolutionary Algorithms},
+    howpublished = {Bsc. Thesis},
+    year = {2009},
+    note = {Technical University Munich},
+    booktitle = {Technical University Munich}
+}
+

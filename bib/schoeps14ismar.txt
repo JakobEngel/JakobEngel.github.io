@@ -1,0 +1,6 @@
+@inproceedings{schoeps14ismar,
+author={T. Sch\"ops and J. Engel and D. Cremers},
+title={Semi-Dense Visual Odometry for {AR} on a Smartphone},
+year= {2014},
+booktitle = {International Symposium on Mixed and Augmented Reality}
+}

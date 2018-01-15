@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Jakob Engel | Computer Vision, Machine Learning, Robotics</title>
+<link href="css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="main">
+
+	
+		<div id="top-nav">
+		
+			<b>Jakob Engel</b> | <small>Computer Vision Research</small>
+	
+		</div>
+
+	
+		<div id="header">
+		
+			<img src="images/header.png" alt="" width="770"/>
+			
+		</div>
+		
+
+	
+		<div id="navigation" style="position: fixed">
+
+			
+			main menu
+			
+			<hr />
+			
+<a href="#Home" class="navigation">Home</a>
+<a href="#Projects" class="navigation">Project Highlights</a>
+<a href="#Publications" class="navigation">Publications</a>
+<a href="#CV" class="navigation">CV</a>
+		</div>
+		
+
+		<div id="content">
+		
+			<a name="Home"></a><h1>Welcome</h1>
+			
+			
+    <p align="justify"> 
+<img border="0" src="images/JakobEngel.JPG" align="left" style="padding-right: 20px"/>
+I'm a Computer Vision researcher with focus on <b>3D Computer Vision, SLAM, VIO and Reconstruction</b>. I finished my PhD at TU Munich in 2016, and since then am a Research Lead at Oculus Research in Seattle. 
+</p><p> 
+On this website you can find my publications and associated videos, as well as links to open-source code and datasets.
+</p><p> 
+<b>Links: </b>
+<a href="https://github.com/JakobEngel"><img border="0" src="images/gh.png" height="13px"/> GitHub</a> - 
+<a href="https://scholar.google.de/citations?user=ndOMZXMAAAAJ"><img border="0" src="images/scholar.png" height="13px"/> Google Scholar</a> - 
+<a href="https://www.linkedin.com/in/jakob-engel-93910883/"><img border="0" src="images/linkedin.png" height="13px"/> LinkedIn</a>
+
+<br/>
+<b>Contact: </b>
+<a href="mailto:jajuengel@gmail.com">jajuengel@gmail.com</a>
+
+<br/>
+<b>PhD Thesis (finally online): </b>
+<a href="pdf/JakobEngelPhD.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+</p>
+<br />
+<br />
+<center style="color:red"> 
+<b>If you are a C++-profficient 3D computer vision expert (SLAM / VIO / Calibration / Reconstruction) looking for exciting new opportunities, contact me!</b>
+</center>
+<br />
+<br />
+
+
+			<a name="Projects"></a><h1>Project Highlights</h1>
+
+<h2>Direct Sparse Odometry</h2>
+<p align="justify"><b>DSO</b> is a direct and sparse visual odometry method I developed, that combines the benefits of direct methods with those of sparse, point-based methods - greatly exceeding LSD-SLAM in runtime, accuracy and robustness. I developed DSO partly during my internship with Prof. Vladlen Koltun at Intel, and partly during my PhD at TU Munich with Prof. Daniel Cremers. You can find the <a href="https://github.com/JakobEngel/dso"><img border="0" src="images/gh.png" height="13px"/> open-source code on GitHub</a>. We also created the <b>TUM monoVO dataset</b>, 50 real-world, "out-of-the-lab" monocular sequences for benchmarking and evaluation <a href="https://vision.in.tum.de/data/datasets/mono-dataset"><img border="0" src="images/tum.png" height="13px"/> which can be found here</a>.
+Development and extention of DSO is carried on in the TU Munich Computer Vision group, <a href="https://vision.in.tum.de/research/vslam/dso"><img border="0" src="images/tum.png" height="13px"/> see here</a>.
+<br /><i>Original Publication (TPAMI)</i>: <a href="pdf/DSO.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a> (see <a href="#Publications">Publications</a> for more related papers)
+<br /><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C6-xwSOOdqQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+<br />
+<br />
+<br />
+<br />
+
+<h2>Large-Scale Direct Monocular SLAM</h2>
+<p align="justify"><b>LSD-SLAM</b> is a semi-dense, direct SLAM method I developed during my PhD at TUM. It was based on a 
+<a href="https://youtu.be/LZChzEcLNzI"><img border="0" src="images/yt.png" height="13px"/> semi-dense monocular odometry approach</a>, 
+and - together with colleagues and students - we extended it to 
+run <a href="https://youtu.be/X0hx2vxxTMg"><img border="0" src="images/yt.png" height="13px"/> in real-time on a smartphone</a>,
+run <a href="https://youtu.be/oJt3Ln8H03s"><img border="0" src="images/yt.png" height="13px"/> with stereo cameras</a>, 
+run as a <a href="https://youtu.be/XSvFpPYfKWA"><img border="0" src="images/yt.png" height="13px"/> tightly coupled visual-inertial odometry</a>, 
+run <a href="https://youtu.be/v0NqMm7Q6S8"><img border="0" src="images/yt.png" height="13px"/> on omnidirectional cameras</a>, 
+and even to be used for <a href="https://youtu.be/fWBsDwBJD-g"><img border="0" src="images/yt.png" height="13px"/> autonomously navigating a toy quadrocopter</a>.
+For the original monocular version, we published <a href="https://github.com/tum-vision/lsd_slam"><img border="0" src="images/gh.png" height="13px"/> open-source code on GitHub</a>.
+<br /><i>Original Publication (ECCV)</i>: <a href="pdf/engel14eccv.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a> (see <a href="#Publications">Publications</a> for more related papers)
+<br />
+<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GnuQzP3gty4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+<br />
+<br />
+<br />
+<br />
+
+<h2>Autonomous Quadrocopter Flight</h2>
+<p align="justify">For my Master's Thesis (also at TUM, with Juergen Sturm and Daniel Cremers), I worked on allowing a low-cost commodity quadrocopter (Parrot AR.Drone) fly autonomously in unknown environments, using <a href="http://www.robots.ox.ac.uk/~gk/PTAM/">PTAM</a>. The resulting system was demonstrated in public on many occasions; you can find the <a href="https://github.com/tum-vision/tum_ardrone"><img border="0" src="images/gh.png" height="13px"/> open-source code on GitHub</a>.
+<br /><i>Original Publication (RAS)</i>: <a href="pdf/engel14ras.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a> (see <a href="#Publications">Publications</a> for more related papers)
+<br />
+<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eznMokFQmpc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+
+
+
+
+<br /><br /><br /><br /><br />
+			<a name="Publications"></a><h1>Publications</h1>
+
+<h3>2017</h3>
+
+<p>
+<img border="0" src="pdf_img/engel17phd.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 10px"/>
+<b>Large-Scale Direct SLAM and 3D Reconstruction in Real-Time</b> (J. Engel), <i>PhD thesis, Technical University Munich</i>, 2017.
+<br />
+<a href="pdf/JakobEngelPhD.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/JakobEngelPhD.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+</p>
+
+
+<p align=justify">
+<img border="0" src="pdf_img/engel2016dso.jpg" align="left" width="80px" style="padding-right: 10px;padding-bottom: 0px"/>
+<b>Direct Sparse Odometry</b> (J. Engel, V. Koltun, D. Cremers), In <i>Transactions on Pattern Analysis and Machine Intelligence</i>, volume PP, Issue 99, 2017.
+<br />
+<a href="pdf/DSO.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/DSO.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/C6-xwSOOdqQ"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+<a href="https://github.com/JakobEngel/dso"><img border="0" src="images/gh.png" height="13px"/> [code]</a>
+<a href="https://arxiv.org/abs/1607.02565"><img border="0" src="images/arxiv.png" height="13px"/> [2016 arXiv version]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/stumberg16exploration.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>From Monocular SLAM to Autonomous Drone Exploration</b> (L. von Stumberg, V. Usenko, J. Engel, J. Stueckler, D. Cremers), In <i>European Conference on Mobile Robots (ECMR)</i>, 2017. 
+<br />
+<a href="pdf/stumberg16exploration.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/stumberg16exploration.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/fWBsDwBJD-g"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+<a href="https://arxiv.org/abs/1609.07835"><img border="0" src="images/arxiv.png" height="13px"/> [2016 arXiv version]</a>
+</p>
+
+
+
+
+<h3>2016</h3>
+
+<p>
+<img border="0" src="pdf_img/engel2016monodataset.png" align="left" width="80px" style="padding-right: 10px"/>
+<b>A Photometrically Calibrated Benchmark For Monocular Visual Odometry</b> (J. Engel, V. Usenko, D. Cremers), In <i>arXiv:1607.02555</i>, 2016. 
+<br />
+<a href="pdf/engel2016monodataset.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel2016monodataset.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://vision.in.tum.de/data/datasets/mono-dataset"><img border="0" src="images/tum.png" height="13px"/> <img border="0" src="images/gh.png" height="13px"/> [data/code]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/usenko16icra.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>Direct Visual-Inertial Odometry with Stereo Cameras</b> (V. Usenko, J. Engel, J. Stueckler, D. Cremers), In <i>International Conference on Robotics and Automation (ICRA)</i>, 2016.
+<br />
+<a href="pdf/usenko16icra.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/usenko16icra.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/XSvFpPYfKWA"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+</p>
+
+
+
+
+
+<h3>2015</h3>
+
+
+<p>
+<img border="0" src="pdf_img/usenko15_3dv.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 40px"/>
+<b>Reconstructing Street-Scenes in Real-Time From a Driving Car</b> (V. Usenko, J. Engel, J. Stueckler, D. Cremers), In <i>International Conference on 3D Vision (3DV)</i>, 2015.
+<br />
+<a href="pdf/usenko15_3dv.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/usenko15_3dv.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/caruso2015_omni_lsdslam.png" align="left" width="80px" style="padding-right: 10px"/>
+<b>Large-Scale Direct SLAM for Omnidirectional Cameras</b> (D. Caruso, J. Engel, D. Cremers), In <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2015.
+<br />
+<a href="pdf/caruso2015_omni_lsdslam.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/caruso2015_omni_lsdslam.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/v0NqMm7Q6S8"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/engel2015_stereo_lsdslam.png" align="left" width="80px" style="padding-right: 10px"/>
+<b>Large-Scale Direct SLAM with Stereo Cameras</b> (J. Engel, J. Stueckler, D. Cremers), In <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2015.
+<br />
+<a href="pdf/engel2015_stereo_lsdslam.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel2015_stereo_lsdslam.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/oJt3Ln8H03s"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+</p>
+
+
+
+
+
+
+<h3>2014</h3>
+
+<p>
+<img border="0" src="pdf_img/engel14ras.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>Scale-Aware Navigation of a Low-Cost Quadrocopter with a Monocular Camera</b> (J. Engel, J. Sturm, D. Cremers), In <i>Robotics and Autonomous Systems (RAS)</i>, volume 62, 2014.
+<br />
+<a href="pdf/engel14ras.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel14ras.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/dunkley14iros.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>Visual-Inertial Navigation for a Camera-Equipped 25g Nano-Quadrotor</b> (O. Dunkley, J. Engel, J. Sturm, D. Cremers), In <i>IROS2014 Aerial Open Source Robotics Workshop</i>, 2014.
+<br />
+<a href="pdf/dunkley14iros.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/dunkley14iros.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/R4A8dv5RW5s"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/schoeps14ismar.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>Semi-Dense Visual Odometry for AR on a Smartphone</b> (T. Sch\F6ps, J. Engel, D. Cremers), In <i>International Symposium on Mixed and Augmented Reality (ISMAR)</i>, 2014.
+<br />
+<a href="pdf/schoeps14ismar.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/schoeps14ismar.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/X0hx2vxxTMg"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/engel14eccv.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>LSD-SLAM: Large-Scale Direct Monocular SLAM</b> (J. Engel, T. Sch\F6ps, D. Cremers), In <i>European Conference on Computer Vision (ECCV)</i>, 2014.
+<br />
+<a href="pdf/engel14eccv.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel14eccv.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/GnuQzP3gty4"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+<a href="https://github.com/tum-vision/lsd_slam"><img border="0" src="images/gh.png" height="13px"/> [code]</a>
+</p>
+
+
+
+<h3>2013</h3>
+
+<p>
+<img border="0" src="pdf_img/engel2013iccv.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 10px"/>
+<b>Semi-Dense Visual Odometry for a Monocular Camera</b> (J. Engel, J. Sturm, D. Cremers), In <i>International Conference on Computer Vision (ICCV)</i>, 2013.
+<br />
+<a href="pdf/engel2013iccv.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel2013iccv.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/LZChzEcLNzI"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+</p>
+
+
+
+
+<h3>2012</h3>
+
+<p>
+<img border="0" src="pdf_img/engel12vicomor.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 50px"/>
+<b>Accurate Figure Flying with a Quadrocopter Using Onboard Visual and Inertial Sensing</b> (J. Engel, J. Sturm, D. Cremers), In <i>Workshop on Visual Control of Mobile Robots (ViCoMoR) at the International Conference on Intelligent Robot Systems (IROS)</i>, 2012.
+<br />
+<a href="pdf/engel12vicomor.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel12vicomor.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+</p>
+
+<p>
+<img border="0" src="pdf_img/engel12iros.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>Camera-Based Navigation of a Low-Cost Quadrocopter</b> (J. Engel, J. Sturm, D. Cremers), In <i>International Conference on Intelligent Robot Systems (IROS)</i>, 2012.
+<br />
+<a href="pdf/engel12iros.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel12iros.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+<a href="https://youtu.be/eznMokFQmpc"><img border="0" src="images/yt.png" height="13px"/> [video]</a>
+<a href="https://github.com/tum-vision/tum_ardrone"><img border="0" src="images/gh.png" height="13px"/> [code]</a>
+</p>
+
+
+
+
+<h3>2011</h3>
+<p>
+<img border="0" src="pdf_img/engel2011msc.png" align="left" width="80px" style="padding-right: 10px;padding-bottom: 20px"/>
+<b>Autonomous Camera-Based Navigation of a Quadrocopter</b> (J. Engel), <i>Master's thesis, Technical University Munich</i>, 2011.
+<br />
+<a href="pdf/JakobEngelMsc.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel2011msc.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+</p>
+
+
+
+
+<h3>2009</h3>
+<p>
+<img border="0" src="pdf_img/engel09bsc.png" align="left" width="80px" style="padding-right: 10px"/>
+<b>Generating Swedish-style Crossword Puzzle Masks using Evolutionary Algorithms</b> (J. Engel), <i>Bachelor's thesis, Technical University Munich</i>, 2009.
+<br />
+<a href="pdf/JakobEngelBsc.pdf"><img border="0" src="images/pdf.png" height="13px"/> [pdf]</a>
+<a href="bib/engel09bsc.txt"><img border="0" src="images/bib.png" height="13px"/> [bib]</a>
+</p>
+
+
+
+
+
+
+
+
+<br /><br /><br /><br /><br />
+			<a name="CV"></a><h1>CV</h1>
+[full CV available on request]
+
+
+		</div>
+
+		<div id="footer">
+
+			<hr />
+
+	Copyright \A9 2018 | Jakob Engel | All Rights Reserved
+
+		</div>
+
+
+	
+</div>
+
+</body>
+
+</html>
